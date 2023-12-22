@@ -15,5 +15,7 @@ This is a simple react native multiplatform sample
 Run this vommands via terminal:
 
 cd reactweb ( or your app folders name )
+
 npm install react-native-web
+
 npm install -D babel-plugin-react-native-web webpack webpack-cli webpack-dev-server html-webpack-plugin react-dom babel-loader url-loader @svgr/webpack
