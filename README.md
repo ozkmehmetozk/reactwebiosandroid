@@ -1,6 +1,6 @@
 <p align="center">
  ## React Native for WEB, Android &amp; iOS
-</p>
+</br>
 
 ## React Native Example for WEB, Android &amp; iOS
 
@@ -12,11 +12,14 @@ This is a simple react native multiplatform sample
 
 ## Documentation
 1- Copy webpack.config.js, App.web , index.web.js ,index.html files to your app folder
-
+</br>
 2 -Run this commands via terminal: 
    a-  cd reactweb ( or your app folders name )
    b-  npm install react-native-web
    c-  npm install -D babel-plugin-react-native-web webpack webpack-cli webpack-dev-server html-webpack-plugin react-dom babel-loader url-loader @svgr/webpack
+   </br>
  4-  Copy paste this scripts to package.json :  ,
     "build": "rm -rf dist/ && webpack --mode=production --config webpack.config.js",
     "web": "webpack serve --mode=development --config webpack.config.js"
+    </br>
+</p>
